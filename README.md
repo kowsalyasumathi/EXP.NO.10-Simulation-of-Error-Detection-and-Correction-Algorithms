@@ -2,11 +2,33 @@
 10.Simulation of Error Detecion and Correction Algorithms
 
 # AIM
+To simulate and analyze the working of error detection and correction algorithms , including Parity Check using  Hamming Code to ensure reliable data transmission.
 
 # SOFTWARE REQUIRED
+Google Colab (python)
 
 # ALGORITHMS
+```
+1)Select a data block (binary string) to be transmitted.
 
+2)Choose one or more algorithms for simulation:
+
+3)Parity Bit
+
+4)Checksum
+
+5)Hamming Code
+
+6)Apply the algorithm to encode the data.
+
+7)Simulate transmission errors (by flipping bits).
+
+8)Apply the detection or correction method at the receiver.
+
+9)Display whether an error was detected or corrected.
+
+10)Compare results of different algorithms.
+```
 # PROGRAM
 ```
 import numpy as np
@@ -196,3 +218,4 @@ Syndrome Matrix:
 ```
  
 # RESULT / CONCLUSIONS
+Thus the simulation of Error detection and correction is successfully verified using Hamming code.
